@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5682372223573027230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 711.27783
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.107935
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 702.127
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      propertyPath: m_Name
+      value: DestroyWall_3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4742473837712756890, guid: b54b838b05c436c4abc2ad1ac2a90762, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3355637322131796851}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -256940380741362930}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b54b838b05c436c4abc2ad1ac2a90762,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2857113141943957991}
+  m_SourcePrefab: {fileID: 100100000, guid: b54b838b05c436c4abc2ad1ac2a90762, type: 3}
+--- !u!1 &4763329286391256271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b54b838b05c436c4abc2ad1ac2a90762,
+    type: 3}
+  m_PrefabInstance: {fileID: 5682372223573027230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3355637322131796851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763329286391256271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58afc971fbdd3f43b2a5a59a36d2c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingName: DestroyWall_3
+  level: 3
+  goldCost: 0
+  steelCost: 0
+  index: 0
+  info: 
+  objectName: 
+  buildingId: 
+  isBuilding: 0
+--- !u!114 &-256940380741362930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763329286391256271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575b407d197681c45a99f7577f3a194a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 7122033192806043463, guid: 4b8361c0b14d0a7458b12f4ed25ec234,
+    type: 3}
+  cost: 50
+  objectName: Wall
+  index: 0
+--- !u!65 &2857113141943957991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763329286391256271}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7995739, y: 0.24086703, z: 0.41903064}
+  m_Center: {x: 0.0000010430814, y: 0.12043346, z: -0.0000028312209}

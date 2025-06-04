@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4110955383241388541
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 760.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 743.86
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      propertyPath: m_Name
+      value: DestroySklad_3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4742473837712756890, guid: fc8639767563ba840a336446c0e71b86, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6118063680288634569}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8288476351297935097}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fc8639767563ba840a336446c0e71b86,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7211970165184620705}
+  m_SourcePrefab: {fileID: 100100000, guid: fc8639767563ba840a336446c0e71b86, type: 3}
+--- !u!1 &3876585469543713964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fc8639767563ba840a336446c0e71b86,
+    type: 3}
+  m_PrefabInstance: {fileID: 4110955383241388541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-6118063680288634569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876585469543713964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575b407d197681c45a99f7577f3a194a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 1308035070645102500, guid: 5d963933fbb2d684ea7e430c87645179,
+    type: 3}
+  cost: 150
+  objectName: Payload Station
+  index: 0
+--- !u!65 &8288476351297935097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876585469543713964}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.170582, y: 1.9632771, z: 12.340172}
+  m_Center: {x: 0.03684354, y: 0.9712522, z: -0.06176734}
+--- !u!114 &-7211970165184620705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3876585469543713964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304ac4df2bf30ec4bb0458c5e23ffbfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingName: DestroySklad_3
+  level: 1
+  goldCost: 0
+  steelCost: 0
+  index: 0
+  info: 
+  objectName: 
+  buildingId: 
+  isBuilding: 0

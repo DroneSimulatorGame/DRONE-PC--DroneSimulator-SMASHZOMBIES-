@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2859405168170627010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 739.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 717.65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      propertyPath: m_Name
+      value: DestroyArchitecture_3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4742473837712756890, guid: 14cb989dab16229478dce3ca11bc6707, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -274483616111404203}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3817081701794175453}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 14cb989dab16229478dce3ca11bc6707,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3708728500638003025}
+  m_SourcePrefab: {fileID: 100100000, guid: 14cb989dab16229478dce3ca11bc6707, type: 3}
+--- !u!1 &3129944601343087251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 14cb989dab16229478dce3ca11bc6707,
+    type: 3}
+  m_PrefabInstance: {fileID: 2859405168170627010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-274483616111404203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129944601343087251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575b407d197681c45a99f7577f3a194a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 7437661902627230776, guid: 052e29608f3af3147ba48b777f7672af,
+    type: 3}
+  cost: 200
+  objectName: Architecture
+  index: 0
+--- !u!65 &3817081701794175453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129944601343087251}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 25.2878, y: 2.2248626, z: 17.081066}
+  m_Center: {x: 0.00001001358, y: 1.0338101, z: -0.000015258789}
+--- !u!114 &-3708728500638003025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129944601343087251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f76dacd9e9f279458b0347ed38151e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingName: DestroyArchitecture_3
+  level: 1
+  goldCost: 0
+  steelCost: 0
+  index: 0
+  info: 
+  objectName: 
+  buildingId: 
+  isBuilding: 0

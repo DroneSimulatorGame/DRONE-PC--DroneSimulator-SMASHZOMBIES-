@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2548917880035671739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 717.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 709.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      propertyPath: m_Name
+      value: DestroyTower_3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4742473837712756890, guid: 7f452e5d7b4aa524b91da3db776e9878, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4598712210279370519}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8652022793195098667}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f452e5d7b4aa524b91da3db776e9878,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7551713220197471011}
+  m_SourcePrefab: {fileID: 100100000, guid: 7f452e5d7b4aa524b91da3db776e9878, type: 3}
+--- !u!1 &3431455528069874666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f452e5d7b4aa524b91da3db776e9878,
+    type: 3}
+  m_PrefabInstance: {fileID: 2548917880035671739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4598712210279370519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431455528069874666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575b407d197681c45a99f7577f3a194a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 2906242904097239146, guid: 132a67fd46dcf184284480b46e07e028,
+    type: 3}
+  cost: 150
+  objectName: Tower
+  index: 0
+--- !u!65 &8652022793195098667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431455528069874666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.9621248, y: 4.011228, z: 3.9621248}
+  m_Center: {x: 0, y: 2.0056155, z: 0}
+--- !u!114 &7551713220197471011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431455528069874666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfc348f956d4b8442902ffbfe82a6c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingName: DestroyTower_3
+  level: 1
+  goldCost: 0
+  steelCost: 0
+  index: 0
+  info: 
+  objectName: 
+  buildingId: 
+  isBuilding: 0
