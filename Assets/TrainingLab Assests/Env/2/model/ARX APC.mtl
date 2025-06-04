@@ -1,0 +1,72 @@
+# Blender 4.2.0 MTL File: 'ARX APC.blend'
+# www.blender.org
+
+newmtl ARX_body_2.002
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/ARX_body_2_Base_color.jpg
+map_Ns C:/ARX_body_2_Roughness.jpg
+map_refl C:/ARX_body_2_Metallic.jpg
+map_Bump -bm 1.000000 C:/ARX_body_2_Normal_OpenGL.jpg
+
+newmtl Body3
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd A:/textures/Body3_Base_color.jpg
+map_Ns C:/Body3_Roughness.jpg
+map_refl C:/Body3_Metallic.jpg
+map_Bump -bm 1.000000 C:/Body3_Normal_OpenGL.jpg
+
+newmtl DefaultMaterial
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+
+newmtl Lights.003
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Lights_Base_color.jpg
+map_Ns C:/Lights_Roughness.jpg
+map_refl C:/Lights_Metallic.jpg
+map_Ke C:/Lights_Emissive.jpg
+map_Bump -bm 1.000000 C:/Lights_Normal_OpenGL.jpg
+
+newmtl Metal.003
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Interior_Metalic_Base_color.jpg
+map_Ns C:/Interior_Metalic_Roughness.jpg
+map_refl C:/Interior_Metalic_Metallic.jpg
+map_Bump -bm 1.000000 C:/Interior_Metalic_Normal_OpenGL.jpg
+
+newmtl wheel_2.002
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/wheel_2_Base_color.jpg
+map_Ns C:/wheel_2_Roughness.jpg
+map_refl C:/wheel_2_Metallic.jpg
+map_Bump -bm 1.000000 C:/wheel_2_Normal_OpenGL.jpg
